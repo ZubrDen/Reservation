@@ -1,0 +1,121 @@
+#top-container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#title-reserv {
+    margin: 0 auto;
+    width: 640px;
+}
+
+#title-reserv p {
+    text-align: center;
+}
+
+#title-reserv p:nth-child(1) {
+    font-size: 150%;
+}
+
+#title-reserv p:nth-child(3) {
+    font-size: 125%;
+}
+
+#legenda {
+    margin: 40px auto;
+}
+
+#legenda span {
+    font-size: 130%;
+    margin-right: 40px;
+}
+
+#legenda div {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+#legenda td:nth-child(1) div{
+    background-color: red;
+}
+
+#legenda td:nth-child(3) div{
+    background-color: green;
+}
+
+#main-container {
+    width: 382px;
+    height: 330px;
+    margin-left: 10px;
+    float: left;
+}
+
+#for-button {
+    margin-left: 430px;
+    width: 306px;
+    height: 323px;
+    /*border: 2px solid green;*/
+}
+
+#for-button button {
+    height: 45px;
+    width: 172px;
+    color: green;
+    background-image: url("button.png");
+    border-radius: 10px;
+    margin: 135px 0 0 0;
+}
+
+#for-button button:hover {
+    background-image: url("button_hover.png");
+    cursor: pointer;
+}
+
+#notice {
+    margin: 168px 0 0 0px;
+    font-size: 120%;
+    color: #7ba780;
+}
+
+#nums {
+    color: red;
+}
+
+#reserv {
+    border-collapse: collapse;
+}
+
+#reserv td,#reserv th {
+    border: 2px solid black;
+}
+
+#reserv div {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+#reserv th div {
+    background-color: white;
+    pointer-events: none;
+}
+
+#reserv tr div:hover {
+    background-color: #d2d2d2;
+}
+
+.alien, .reserved, .wait_renew {
+    pointer-events: none;
+}
+
+.alien {
+    background-color: #fcfcfc !important;
+    color: #a2a2a2;
+}
+
+
+
